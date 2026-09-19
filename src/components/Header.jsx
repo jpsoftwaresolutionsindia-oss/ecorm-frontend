@@ -76,7 +76,7 @@ const Header = () => {
                                     <a href="#"><FaGithub /> </a> 
                                 </div>
         <div className='flex group cursor-pointer text-slate-800 text-sm justify-center items-center gap-1 relative after:h-[18px] after:w-[1px] after:bg-[#afafaf] after:-right-[16px] after:absolute before:absolute before:h-[18px] before:bg-[#afafaf] before:w-[1px] before:-left-[20px]'>
-            <img src="http://localhost:3000/images/language.png" alt="" />
+            <img src="/images/language.png" alt="" />
             <span><IoMdArrowDropdown /></span>
             <ul className='absolute invisible transition-all top-12 rounded-sm duration-200 text-white p-2 w-[100px] flex flex-col gap-3 group-hover:visible group-hover:top-6 group-hover:bg-black z-10'>
             <li>Hindi</li>
@@ -109,7 +109,7 @@ const Header = () => {
                     <div className='flex justify-between items-center'>
  
                 <Link to='/'>
-                    <img src="http://localhost:3000/images/logo.png" alt="" />
+                    <img src="/images/logo.png" alt="" />
                 </Link>
                 <div className='justify-center items-center w-[30px] h-[30px] bg-white text-slate-600 border border-slate-600 rounded-sm cursor-pointer lg:hidden md-lg:flex xl:hidden hidden' onClick={() => setShowShidebar(false)}>
                     <span> <FaList/> </span>
@@ -187,11 +187,11 @@ const Header = () => {
         <div className={`w-[300px] z-[9999] transition-all duration-200 fixed ${showShidebar ? '-left-[300px]' : 'left-0 top-0'} overflow-y-auto bg-white h-screen py-6 px-8 `}>
                 <div className='flex justify-start flex-col gap-6'>
                 <Link to='/'>
-                    <img src="http://localhost:3000/images/logo.png" alt="" />
+                    <img src="/images/logo.png" alt="" />
                 </Link>
     <div className='flex justify-start items-center gap-10'>
     <div className='flex group cursor-pointer text-slate-800 text-sm justify-center items-center gap-1 relative after:h-[18px] after:w-[1px] after:bg-[#afafaf] after:-right-[16px] after:absolute '>
-            <img src="http://localhost:3000/images/language.png" alt="" />
+            <img src="/images/language.png" alt="" />
             <span><IoMdArrowDropdown /></span>
             <ul className='absolute invisible transition-all top-12 rounded-sm duration-200 text-white p-2 w-[100px] flex flex-col gap-3 group-hover:visible group-hover:top-6 group-hover:bg-black z-10'>
             <li>Hindi</li>

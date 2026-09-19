@@ -1,7 +1,9 @@
 {
+  "buildCommand": "CI=false npm run build",
   "build": {
     "env": {
-      "REACT_APP_API_URL": "https://ecorm-backend.onrender.com"
+      "REACT_APP_API_URL": "https://ecorm-backend.onrender.com",
+      "REACT_APP_ADMIN_URL": "https://ecorm-admin.vercel.app"
     }
   }
 }

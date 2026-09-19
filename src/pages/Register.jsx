@@ -108,13 +108,13 @@ const Register = () => {
         <p>You Have No Account? <Link className='text-blue-500' to='/login'> Login</Link> </p>
     </div> 
 
-    <a target='_blank' href="http://localhost:3001/login">
+    <a target='_blank' href={`${process.env.REACT_APP_ADMIN_URL || 'http://localhost:3001'}/login`}>
      <div className='px-8 w-full py-2 bg-[#02e3e0] shadow hover:shadow-red-500/50 text-white rounded-md flex justify-center items-center gap-2 mb-3'>
             Login As a Seller
      </div>
      </a>
 
-     <a target='_blank' href="http://localhost:3001/register">
+     <a target='_blank' href={`${process.env.REACT_APP_ADMIN_URL || 'http://localhost:3001'}/register`}>
      <div className='px-8 w-full py-2 bg-[#ad2cc4] shadow hover:shadow-red-500/50 text-white rounded-md flex justify-center items-center gap-2 mb-3'>
             Register As a Seller
      </div>
@@ -124,7 +124,7 @@ const Register = () => {
             </div> 
 
         <div className='w-full h-full py-4 pr-4'>
-            <img src="http://localhost:3000/images/login.jpg" alt="" />
+            <img src="/images/login.jpg" alt="" />
          </div>    
 
          </div>
